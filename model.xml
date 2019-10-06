@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="CajeroAutomatico">
+            <feature mandatory="true" name="ConsultarSaldo"/>
+            <feature mandatory="true" name="RetirarDinero"/>
+            <feature name="TransferirDinero"/>
+            <feature name="ConsignarDinero"/>
+            <feature mandatory="true" name="ListarOperaciones"/>
+            <feature name="RegistroAuditoria"/>
+            <feature name="SaldoReducido"/>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
